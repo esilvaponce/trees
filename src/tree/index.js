@@ -4,14 +4,12 @@ export default function Tree() {
   return (
     <div className="tree">
       <p>root</p>
-      <p>&nbsp;&nbsp;&nbsp;&nbsp;ant</p>
-      <p>&nbsp;&nbsp;&nbsp;&nbsp;bear</p>
-      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cat</p>
-      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dog</p>
-      <p>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;elephant
-      </p>
-      <p>&nbsp;&nbsp;&nbsp;&nbsp;frog</p>
+      <p className="tab">ant</p>
+      <p className="tab">bear</p>
+      <p className="tab2">cat</p>
+      <p className="tab2">dog</p>
+      <p className="tab3">elephant</p>
+      <p className="tab">frog</p>
     </div>
   );
 }
