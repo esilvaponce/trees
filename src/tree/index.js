@@ -1,6 +1,9 @@
 import "./index.css";
 
 export default function Tree() {
+  let numberLine = (className) => {
+    
+  }; 
   return (
     <div className="tree">
       <div>
@@ -17,13 +20,13 @@ export default function Tree() {
       </div>
       <div>
         <h2> After -> Without "&nbsp" </h2>
-        <p>root</p>
-        <p className="tab">ant</p>
-        <p className="tab">bear</p>
-        <p className="tab2">cat</p>
-        <p className="tab2">dog</p>
-        <p className="tab3">elephant</p>
-        <p className="tab">frog</p>
+        <p>1 root</p>
+        <p className="tab">1.1 ant</p>
+        <p className="tab">1.2 bear</p>
+        <p className="tab2">1.2.1 cat</p>
+        <p className="tab2">1.2.2 dog</p>
+        <p className="tab3">1.2.2.1 elephant</p>
+        <p className="tab">1.3 frog</p>
       </div>
     </div>
   );
