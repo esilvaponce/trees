@@ -1,1 +1,34 @@
-{}
+{
+    "node": "root",
+    "level": "1",
+    "children": [
+        {
+            "node": "ant",
+            "level": "1.1"
+        },
+        {
+            "node": "bear",
+            "level": "1.2",
+            "children": [
+                {
+                    "node": "cat",
+                    "level": "1.2.1"
+                },
+                {
+                    "node": "dog",
+                    "level": "1.2.2",
+                    "children": [
+                        {
+                            "node": "elephant",
+                            "level": "1.2.2.1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "node": "frog",
+            "level": "1.3"
+        }
+    ]
+}
